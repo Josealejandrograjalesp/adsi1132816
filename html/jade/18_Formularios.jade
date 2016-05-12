@@ -1,0 +1,76 @@
+doctype
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Formulario
+body
+  form(method='post')
+    fieldset
+      legend Datos del Usuario
+      //Nombres
+      label(for='nombres') Nombres:
+      input(type='text', id='nombres')
+      br
+      br
+      //Contraseña
+      label(for='contrasena') contraseña:
+      input(type='password', id='contrasena')
+      br
+      br
+      //Foto
+      label(for='foto') Foto
+      input(type='file', id='foto', acept='image/*')
+      br
+      br
+      //Lenguajes de Programacion
+      label(for='lenguajes') Lenguajes de Programacion:
+      label PHP
+      input(type='checkbox', name='lenguajes', value='PHP')
+      label java
+      input(type='checkbox', name='lenguajes', value='java') 
+      lavel C#
+      input(type='checkbox', name='lenguajes', value='c#')
+      br
+      br
+      // Nacionalidad
+      label Nacionalidad
+      br
+      label Colmbia
+        input(type='radio', name='nacionalidad', value='colombia')
+        label Colombia
+        input(type='radio', name='nacionalidad', value='venezuela')
+        label Venezuela
+        input(type='radio', name='nacionalidad', value='Ecuador')
+        label Ecuador
+        br
+        br
+        br
+      //Genero--------------
+      label(for='genero') Genero
+      select
+        option(value='f') Femenino
+        option(value='m') Masculino
+        br
+        br
+        br
+      //Deporte
+      label(for="deporte") Deporte
+      select(multiple='multiple', id='deporte')
+        option(value='1') Futbol
+        option(value='2') Tennis
+        option(value='3') Natacion
+        option(value='4') Baloncesto
+        br
+        br
+        br
+      //Descripcion
+      label(for='descripcion') Descripcion
+      textarea(id='descripcion', cols='40', rows="6")
+      br
+      br
+      br
+      br
+      //Botones
+      input(type='submit', value='Enviar Datos')
+      input(type='reset', value='Reiniciar Formulario')
+    

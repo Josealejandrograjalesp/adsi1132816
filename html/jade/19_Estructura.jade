@@ -1,0 +1,76 @@
+doctype
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Formulario
+body
+  .encabezado
+    h1 yamaha yzf R1
+    
+   img(src='http://ic1.maxabout.us/autos/tw_india//2/2015/9/2016-new-yamaha-yzf-r1-p.jpg')
+  .contenido
+  h1 Formulario de compra
+body
+  form(method='post')
+    fieldset
+      legend Datos del Usuario
+      //Nombres
+      label(for='nombres') Nombres:
+      input(type='text', id='nombres')
+      br
+      br
+      //Contraseña
+      label(for='contrasena') contraseña:
+      input(type='password', id='contrasena')
+      br
+      br
+      //Foto
+      label(for='foto') Foto
+      input(type='file', id='foto', acept='image/*')
+      br
+      br
+      //Lenguajes de Programacion
+      label(for='Eleccion de la motocicleta') Eleccion de la motocicleta:
+      label comodidad
+      input(type='checkbox', name='lenguajes', value='comodidad')
+      label velocidad
+      input(type='checkbox', name='lenguajes', value='velocidad') 
+      lavel otro motivo
+      input(type='checkbox', name='lenguajes', value='otro motivo')
+      br
+      br
+      // Nacionalidad
+      label Nacionalidad
+      br
+      label Colmbia
+        input(type='radio', name='nacionalidad', value='colombia')
+        label Colombia
+        input(type='radio', name='nacionalidad', value='venezuela')
+        label Venezu
+        input(type='radio', name='nacionalidad', value='Ecuador')
+        label Ecuador
+        br
+        br
+        br
+      //Genero--------------
+      label(for='genero') Genero
+      select
+        option(value='f') Femenino
+        option(value='m') Masculino
+        br
+        br
+        br
+      //Descripcion
+      label(for='descripcion') Descripcion
+      textarea(id='descripcion', cols='40', rows="6")
+      br
+      br
+      br
+      br
+      //Botones
+      input(type='submit', value='Enviar Datos')
+      input(type='reset', value='Reiniciar Formulario')
+      
+      .pie
+        h1 Gracias por utilizar nuestros servicios!
+      
