@@ -1,0 +1,29 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Tipos de entradas (Formulario)
+  body
+    h1 Elementos de Entradas (Formulario)
+    hr
+    form(method='post')
+      label(for='Lenguages') Lenguages de Progranación:
+      input(list='Lenguages')
+      datalist(id='Lenguajes')
+        option(value='Python') Python
+        option(value='Ruby') Ruby
+        option(value='PHP') PHP
+        option(value='C#') C#
+    br
+    br 
+    br 
+    label(for='generador') Generador de Claves:
+    keygen(id='Generador')
+    br
+    br
+    br
+    br
+    label(for='Salida') Salida:
+    input(type='range', id='rango', oninput='salida.value=this.value')
+    output(id='salida') 0
+    
