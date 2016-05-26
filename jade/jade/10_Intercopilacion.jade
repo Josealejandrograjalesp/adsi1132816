@@ -1,0 +1,25 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Interpolacion
+  body
+    - var title = "El perro es el mejor amigo del hombre";
+    - var author = "Alejandro";
+    - var theGreat = "<span>escape!</span>";
+
+    h1= title
+    p Escrito con amor por #{author}
+    p Este sera seguro: #{theGreat}
+    
+    br
+    h1 caso 2
+    - var msg = "No es mi voz";
+    p ESTA #{msg.toUpperCase()}
+    br
+    br
+    h1 caso 3
+    - var riskyBusiness = "<em>Es una buena persona.</em>";
+    .quote
+    p Carlos: !{riskyBusiness}
+

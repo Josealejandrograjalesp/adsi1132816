@@ -1,0 +1,32 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Iteracion
+  body
+    h1 Caso 1
+    ul
+      each val in [100, 200, 300, 400, 500]
+        li= val
+    hr
+    h1 Caso 2
+    ul
+      each val, index in ['zero', 'one', 'two', 'three', 'four']
+        li= index + ': ' + val
+    hr
+    h1 Caso 3
+      ul
+        each val, index in {1:'one',2:'two',3:'three'}
+          li= index + ': ' + val
+    hr
+    h1 Caso 4
+    - var values = [];
+      ul
+        each val in values.length ? values : ['No existen valores']
+          li= val
+    hr
+    h1 Caso 5
+    - var n = 0
+    ul
+      while n < 4
+        li= n++

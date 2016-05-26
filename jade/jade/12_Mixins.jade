@@ -1,0 +1,53 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Mixins
+  body
+  h1 Caso 1
+    //- Declaracion
+    mixin list
+      ul
+        li gato
+        li perro
+        li cerdo
+    //- Use
+    + list
+    + list
+  hr
+  h1 Caso 2
+    mixin pet(name)
+      li.pet= name
+    ul
+      +pet('gato')
+      +pet('perro')
+      +pet('cerdo')
+  hr
+  h1 Caso 3
+    h2 Bloques mixin
+      hr  
+      mixin article(title)
+        .article
+          .article-wrapper
+            h1= title
+            if block
+              block
+            else
+              p No hay contenido proporcionado
+
+
+      +article('Hola Alejo')
+
+      +article('Hola Alejo')
+        p Este ess mi
+        p Exelente Articulo
+
+  hr
+  h1 Caso 4
+    h2 Atributos mixin
+      hr
+      mixin link(href, name)
+        //- attributes == {class: "btn"}
+        a(class!=attributes.class, href=href)= name
+
+      +link('/gato', 'perro')(class="btn")

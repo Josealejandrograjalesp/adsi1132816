@@ -1,0 +1,37 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title caso (jade)
+  body
+    h1 casos (jade)
+      - var amigos = 10
+case friends
+  when 0
+    p tu no tienes amigos
+  when 1
+    p tu tienes un amigo
+  default
+    p tu tienes #{amigos} Amigos
+    br
+    br
+    
+    h1 caso 2
+      - var colores = 0
+case colors
+  when 0
+  when 1
+    p tu tienes muy pocos colres
+  default
+    p tu tienes #{colores} Colores
+    br
+    br 
+    
+    h1 caso 3 
+      - var manzanas = 1
+case friends
+  when 0: p tu no tiens manzanas
+  when 1: p tu tienes una manzanas
+  default: p tu tienesa #{manzanas} manzanas
+    
+       

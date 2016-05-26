@@ -1,0 +1,19 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Codigo (jade)
+  body
+    h1 codigo (jade)
+    //ciclo for
+    ul
+     - for(var i = 1; i <= 10; i++)
+      li item #{i}
+    // ciclo each a un arreglo  
+    ol
+      -
+        autos = ["Toyota" , "Chevrolet" , "BMW" , "Ferrary" , "Mazda" ]
+   each item in autos
+   li autos
+  
+       
