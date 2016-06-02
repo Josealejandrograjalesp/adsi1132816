@@ -1,0 +1,8 @@
+/*Herencia*/
+body {
+  background-color: #ff0;
+  color: #000;
+}
+body article p {
+  background-color: #fff;
+}
