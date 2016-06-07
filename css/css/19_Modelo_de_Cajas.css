@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+h1 .Margin {
+  background-color: #0f0;
+  text-align: center;
+  margin: 0px auto;
+  width: 800px;
+  height: 500px;
+}
+h1 .Margin .Border {
+  background-color: #f00;
+  text-align: center;
+  margin: 0px auto;
+  width: 700px;
+  height: 400px;
+}
+h1 .Margin .Border .Padding {
+  background-color: #ff0;
+  text-align: center;
+  margin: 0px auto;
+  width: 600px;
+  height: 300px;
+}
+h1 .Margin .Border .Padding .Content {
+  background-color: #00f;
+  text-align: center;
+  margin: 0px auto;
+  width: 500px;
+  height: 200px;
+}
