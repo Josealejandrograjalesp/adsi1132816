@@ -1,0 +1,28 @@
+div {
+  background-color: #fe0303;
+  border: 10px solid #15fe03;
+  color: #fef501;
+  font: 1.2em ALGERIAN;
+  margin-bottom: 10px;
+  text-align: center;
+}
+div.box1 {
+  height: 350px;
+  width: 250px;
+}
+div.box2 {
+  height: 400px;
+  width: 600px;
+}
+div.box3 {
+  height: 500px;
+  width: 250px;
+}
+div.box4 {
+  height: 2cm;
+  width: 50%;
+}
+div.box1 {
+  height: 2cm;
+  width: 80%;
+}

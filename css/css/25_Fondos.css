@@ -1,0 +1,17 @@
+div {
+  width: 250px;
+  height: 250px;
+}
+div.box1 {
+  background-color: #fe0404;
+}
+div.box2 {
+  width: 700px;
+  height: 500px;
+  background-image: url("../imgs/Tomorrowland.jpg");
+}
+div.box3 {
+  display: inline-block;
+  background-repeat: url("../imgs/woodland.jpg");
+  background-color: #fe0303;
+}
