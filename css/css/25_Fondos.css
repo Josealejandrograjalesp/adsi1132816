@@ -1,17 +1,109 @@
-div {
-  width: 250px;
-  height: 250px;
+body {
+  background-color: #31fc02;
+  font: 16px Tahoma;
+  color: #0214ff;
 }
-div.box1 {
-  background-color: #fe0404;
+h2 {
+  background-color: #fff;
+  padding: 20px;
 }
-div.box2 {
-  width: 700px;
+section {
+  background-color: rgba(255,255,255,0.5);
   height: 500px;
+  padding: 20px;
+}
+section div {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  margin-left: 4px;
+}
+.fondocolor .fondo1 {
+  background-color: #fff006;
+}
+.fondocolor .fondo2 {
+  background-color: #0309fd;
+}
+.fondocolor .fondo3 {
+  background-color: #f00;
+}
+.imagenfondo .imagen1 {
+  background-image: url("../imgs/animate.jpg");
+  height: 350px;
+  width: 350px;
+}
+.imagenfondo .imagen2 {
+  background-image: url("../imgs/woodland.jpg");
+}
+.imagenfondo .imagen3 {
   background-image: url("../imgs/Tomorrowland.jpg");
 }
-div.box3 {
-  display: inline-block;
-  background-repeat: url("../imgs/woodland.jpg");
-  background-color: #fe0303;
+.repetirfondo div {
+  background-image: url("../imgs/animate.jpg");
+  background-color: #fff;
+  color: #0cff00;
+  width: 298px;
+}
+.repetirfondo .fondo1 {
+  background-repeat: repeat;
+}
+.repetirfondo .fondo2 {
+  background-repeat: no-repeat;
+}
+.repetirfondo .fondo3 {
+  background-repeat: repeat-x;
+}
+.repetirfondo .fondo4 {
+  background-repeat: repeat-y;
+}
+.section div h3 {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: center;
+}
+.repetir .fondo1 {
+  background-repeat: repeat;
+}
+.repetir .fondo2 {
+  background-repeat: no-repeat;
+}
+.repetir .fondo3 {
+  background-repeat: repeat-x;
+}
+.repetir .fondo4 {
+  background-repeat: repeat-y;
+}
+.posicionfondo {
+  height: 1200px;
+}
+.posicionfondo div {
+  background-image: url("../imgs/apple.jpg");
+  background-repeat: no-repeat;
+}
+.posicion .fondo1 {
+  background-position: center left;
+}
+.posicion .fondo2 {
+  background-position: center center;
+}
+.posicion .fondo3 {
+  background-position: center right;
+}
+.posicion .fondo4 {
+  background-position: top left;
+}
+.posicion .fondo5 {
+  background-position: top center;
+}
+.posicion .fondo6 {
+  background-position: top right;
+}
+.posicion .fondo7 {
+  background-position: bottom left;
+}
+.posicion .fondo8 {
+  background-position: bottom center;
+}
+.posicion .fondo9 {
+  background-position: bottom left;
 }
