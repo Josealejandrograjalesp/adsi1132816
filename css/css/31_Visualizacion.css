@@ -1,0 +1,44 @@
+body {
+  color: #000;
+  font: 25px Arial;
+}
+section.padre {
+  border: 2px solid #072afe;
+  height: 450px;
+  padding: 10px;
+  width: 400px;
+}
+section div {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  border: 3px solid #0f0;
+}
+section div.hija5 {
+  display: none;
+}
+section div.desaparecer {
+  visibility: hidden;
+}
+section h2 {
+  color: #f00;
+  font: 16px Arial;
+  text-align: center;
+}
+div {
+  border: 2px solid #999;
+}
+main div {
+  border: 2px solid #072afe;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+main div a.linea {
+  display: inline;
+}
+main div a.bloque {
+  display: none;
+}

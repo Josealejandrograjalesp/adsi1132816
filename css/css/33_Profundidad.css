@@ -1,0 +1,29 @@
+body {
+  font: 16px Verdana;
+}
+section {
+  border: 2px solid #ccc;
+  height: 150px;
+  font-size: 5em;
+  width: 300px;
+  position: relative;
+}
+section.box1 {
+  background-color: #453481;
+  color: #fff;
+  z-index: 1;
+}
+section.box2 {
+  background-color: #6a4fc7;
+  color: #fff;
+  top: -100px;
+  left: 150px;
+  z-index: 2;
+}
+section.box3 {
+  background-color: #bda3ff;
+  color: #fff;
+  top: -150px;
+  left: 250px;
+  z-index: 3;
+}

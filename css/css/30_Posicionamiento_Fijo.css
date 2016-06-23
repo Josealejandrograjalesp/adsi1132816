@@ -1,0 +1,24 @@
+fbody {
+  background-color: #333;
+  font: 16px Arial;
+  color: #fff;
+}
+main {
+  padding: 20px;
+  margin: 20px auto;
+  width: 760px;
+}
+main p {
+  text-align: justify;
+  line-height: 20px;
+}
+nav {
+  background: transparent url("../imgs/city.png") no-repeat center center;
+  border-bottom: 40px solid #fff;
+  height: 344px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  margin: 0px auto;
+  bottom: 0;
+}
