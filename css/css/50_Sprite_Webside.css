@@ -1,0 +1,37 @@
+body {
+  background-color: #e82231;
+  font: 16px Arial;
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  background-color: #fff; 
+  height: 150px;
+  margin: 0px;
+}
+header figure.logo {
+  background: #fff url("../imgs/sprite-web.png") no-repeat;
+  background-position: -274px -34px;
+  height: 90px;
+  margin: 0px;
+  width: 244px;
+}
+nav {
+  position: relative;
+  left: 600px;
+  top: -60px;
+  width: 640px;
+}
+nav li {
+  background-color: #e82231;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  width: 120px;
+}
+nav li {
+  cursor: pointer;
+}
