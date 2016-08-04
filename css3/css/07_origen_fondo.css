@@ -1,0 +1,17 @@
+section {
+  background: url("../imgs/lobo.jpg") no-repeat;
+  border: 100px solid transparent;
+  height: 200px;
+  padding: 100px;
+  margin: 20px auto;
+  width: 400px;
+}
+section.origen1 {
+  background-origin: border-box;
+}
+section.origen2 {
+  background-origin: padding-box;
+}
+section.origen3 {
+  background-origin: content-box;
+}
