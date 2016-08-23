@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #0f0;
+}
+nav {
+  margin: 20px auto;
+}
+nav li:hover {
+  background-color: #f00;
+  color: #008000;
+  height: 30px;
+  width: 80px;
+}
+nav li {
+  border-radius: 30px;
+  margin-left: 30px;
+  display: inline-block;
+  background-color: #808080;
+  padding: 10px;
+}
+nav li.Home:hover {
+  text-align: center;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  transition: all 4s;
+}
+nav li.AboutUs:hover {
+  text-align: center;
+  -webkit-transform: rotate(180deg) scale(0.2);
+  transform: rotate(180deg) scale(0.2);
+  transition: all 4s;
+}
+nav li.Services:hover {
+  text-align: center;
+  -webkit-transform: scale(1.2) skew(20deg);
+  transform: scale(1.2) skew(20deg);
+  transition: all 4s;
+}
+nav li.ContactUs:hover {
+  text-align: center;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: all 4s;
+}
