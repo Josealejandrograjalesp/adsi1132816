@@ -1,0 +1,44 @@
+body {
+  background: url("../imgs/img1.jpg") no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: #0f0;
+}
+section {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1px;
+}
+nav div {
+  margin-bottom: 10px;
+  background-color: #f00;
+  border: 2px solid #000;
+  width: 200px;
+  height: 35px;
+  margin: 0px auto;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: 30px;
+  vertical-align: center;
+}
+div.div1 p {
+  border: 2px solid #000;
+  width: 600px;
+  height: 330px;
+  text-align: center;
+  margin: 20px auto;
+  color: #2bd2b5;
+  background: url("../imgs/img2.jpg");
+  background-size: 100%;
+}
+div.div2 p {
+  border: 2px solid #000;
+  width: 600px;
+  height: 330px;
+  text-align: center;
+  margin: 20px auto;
+  color: #f00;
+  background: url("../imgs/img3.jpg");
+  background-size: 100%;
+  overflow: scroll;
+}

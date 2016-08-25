@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #0f0;
+  background-color: #37b5d4;
 }
 nav {
   margin: 20px auto;
@@ -41,4 +41,35 @@ nav li.ContactUs:hover {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   transition: all 4s;
+}
+div.div1 p {
+  border: 2px solid #000;
+  width: 600px;
+  height: 330px;
+  text-align: center;
+  margin: 20px auto;
+  color: #2bd2b5;
+  background: url("../imgs/lobo.jpg") center center;
+  background-size: 100%;
+}
+div.div1 p:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 2s;
+}
+div.div2 p {
+  border: 2px solid #000;
+  width: 600px;
+  height: 330px;
+  text-align: center;
+  margin: 20px auto;
+  color: #f00;
+  background: url("../imgs/fondo1.png");
+  background-size: 100%;
+  overflow: scroll;
+}
+p.p1:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: all 2s;
 }
