@@ -1,0 +1,39 @@
+/*variables*/
+color-fondo = #8d2c5f
+color-titulo = #f59cc4
+fuente-base = Arial
+
+grosor-linea = 4px
+estilo-linea = dotted
+color-linea = color-titulo
+
+valores-borde = grosor-linea estilo-linea color-linea
+/*cuando la variable tiene el mismo nombre de la propiedad css se le agrega el signo pesos*/
+$borde = 4px solid #fff
+
+body
+	background-color color-fondo
+	font-family fuente-base
+h1
+	color color-titulo
+	border-bottom valores-borde
+	
+hr
+	border $border
+section.uno
+	background-color #ddd
+	height 400px
+	margin 20px auto
+	width 800px		
+	
+/*ralizar operaciones con los valores de las propiedades*/
+
+#logo
+	background-color color-fondo
+	position absolute
+	top 50%
+	left 50%
+	width 150px
+	height 80px
+	margin-left -(@width / 2)
+	margin-top -(@height / 2)	

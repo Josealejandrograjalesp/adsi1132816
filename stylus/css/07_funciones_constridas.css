@@ -1,0 +1,23 @@
+section {
+  height: 100px;
+  margin: 20px auto;
+  width: 251px;
+}
+.caja1 {
+  background-color: #99deff;
+}
+.caja2 {
+  background-color: #34befe;
+}
+.caja3 {
+  background-color: #018bcb;
+}
+.caja4 {
+  background-color: #fe590c;
+}
+.caja5 {
+  background-color: #f34e01;
+}
+.caja6 {
+  background-color: #00b5ff;
+}

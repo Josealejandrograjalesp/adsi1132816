@@ -1,0 +1,27 @@
+/*Segundo tipo de comentario, el cual se maneja utilizando un slage, dos asteriscos
+y despues se cierra con un slage(multi-line)*/
+section {
+  height: 100px;
+  margin: 20px auto;
+  width: 251px;
+}
+/* Tercer tipo de comentario, el cual llama la atencion ya que se utilizan en el dos 
+slages, dos asteriscos y u signo de almiracion.(milti-line-buffired)*/
+.caja1 {
+  background-color: #99deff;
+}
+.caja2 {
+  background-color: #34befe;
+}
+.caja3 {
+  background-color: #018bcb;
+}
+.caja4 {
+  background-color: #fe590c;
+}
+.caja5 {
+  background-color: #f34e01;
+}
+.caja6 {
+  background-color: #00b5ff;
+}

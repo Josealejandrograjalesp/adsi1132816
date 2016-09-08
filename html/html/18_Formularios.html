@@ -1,60 +1,26 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Formulario</title>
 </head>
 <body>
-  <form method="post">
-    <fieldset>
-      <legend>Datos del Usuario</legend>
-      <!--Nombres-->
-      <label for="nombres">Nombres:</label>
-      <input type="text" id="nombres"><br><br>
-      <!--Contraseña-->
-      <label for="contrasena">contraseña:</label>
-      <input type="password" id="contrasena"><br><br>
-      <!--Foto-->
-      <label for="foto">Foto</label>
-      <input type="file" id="foto" acept="image/*"><br><br>
-      <!--Lenguajes de Programacion-->
-      <label for="lenguajes">Lenguajes de Programacion:</label>
-      <label>PHP</label>
-      <input type="checkbox" name="lenguajes" value="PHP">
-      <label>java</label>
-      <input type="checkbox" name="lenguajes" value="java">
-      <lavel>C#</lavel>
-      <input type="checkbox" name="lenguajes" value="c#"><br><br>
-      <!-- Nacionalidad-->
-      <label>Nacionalidad</label><br>
-      <label>Colmbia
-        <input type="radio" name="nacionalidad" value="colombia">
-        <label>Colombia</label>
-        <input type="radio" name="nacionalidad" value="venezuela">
-        <label>Venezuela</label>
-        <input type="radio" name="nacionalidad" value="Ecuador">
-        <label>Ecuador</label><br><br><br>
-      </label>
-      <!--Genero--------->
-      <label for="genero">Genero</label>
-      <select>
-        <option value="f">Femenino</option>
-        <option value="m">Masculino</option><br><br><br>
-      </select>
-      <!--Deporte-->
-      <label for="deporte">Deporte</label>
-      <select multiple="multiple" id="deporte">
-        <option value="1">Futbol</option>
-        <option value="2">Tennis</option>
-        <option value="3">Natacion</option>
-        <option value="4">Baloncesto</option><br><br><br>
-      </select>
-      <!--Descripcion-->
-      <label for="descripcion">Descripcion</label>
-      <textarea id="descripcion" cols="40" rows="6"></textarea><br><br><br><br>
-      <!--Botones-->
-      <input type="submit" value="Enviar Datos">
-      <input type="reset" value="Reiniciar Formulario">
-    </fieldset>
-  </form>
+  <h1>Formulario</h1>
+  <hr>
+  <fieldset>
+  <legend>Formulario html</legend>
+    Nombre 
+  <br>
+  <input type="text" name="nombre" placeholder="Name">
+  <br>
+  <br>
+  Apellidos <br>
+  <input type="text" placeholder="Lastname" "">
+  <br> <br>
+  Contraseña <br>
+  <input type="password" placeholder="password">
+
+  </fieldset>
+ 
 </body>
+</html>
